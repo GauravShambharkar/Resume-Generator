@@ -24,10 +24,5 @@ public class Person {
         this.address = address;
     }
 
-    void display_personData(){
-        setName("gaurav shambharkar");
-        setContact("84325656565");
-        setaddress("ram nagar ward, hinganghat");
-    }
 }
 

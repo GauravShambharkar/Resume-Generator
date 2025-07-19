@@ -27,9 +27,5 @@ public class Resume extends Person{
         this.experience = new String[]{experience};
     }
 
-    void display_resumeData(){
-        setSkills("java, javascript, reactjs, nodejs,express");
-        setEducation("graduation");
-        setExperience("5yr+");
-    }
+
 }
