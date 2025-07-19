@@ -11,7 +11,7 @@ public class Resume extends Person{
         return this.skills;
     }
 
-    public Resume setEducation(String education) {
+    public void  setEducation(String education) {
         this.education = new String[]{education};
     }
 
@@ -23,7 +23,7 @@ public class Resume extends Person{
         return experience;
     }
 
-    public Resume setExperience(String experience) {
+    public void setExperience(String experience) {
         this.experience = new String[]{experience};
     }
 
